@@ -1,18 +1,80 @@
 @font-face {
     font-family: 'Minipax';
     src: url("../fonts/Minipax Variable.ttf");
-  }
+}
   
-  * {
-      box-sizing: border-box;
-      }
+* {
+    box-sizing: border-box;
+}
           
-  body {
-      background: #339999;
-      border-radius: 15px;
-      font-size: 100%;
-      line-height: unset;
-      margin: 0;
-      padding: 0;
-      }
+body {
+    background: #339999;
+    border-radius: 15px;
+    font-size: 100%;
+    line-height: unset;
+    margin: 0;
+    padding: 0;
+}
+
+.h1-title, .h2-subtitle {
+	position: relative;
+	top: 10px;
+	text-align: center;
+	}
+	
+h1, h2 {
+	font-family: 'Comic';
+	font-size: 2.5em;
+
+}
+
+.wrapper {
+    background-color: #c7ddec;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.6);
+    display: grid;
+    transition: 0.3s;
+    max-width: 1280px;
+    min-width: 550px;
+    width: 90%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    width: 50%;
+}
+
+.container {
+	display: block;
+	font-family: 'Hepta Slab';
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.credit,.footer-contact {
+    font-size:0.875em;
+    text-align:center;
+}
+    
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
+}
+
   
